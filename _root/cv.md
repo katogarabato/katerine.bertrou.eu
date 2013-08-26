@@ -1,0 +1,59 @@
+---
+title: 'Curiculum viatea en français et en ligne de Jean-Michel Fayard'
+date: '2013-08-26'
+description: "Curiculum viatea en français et en ligne de Jean-Michel Fayard"
+tags: [officiel]
+---
+
+# Curiculum viatea en français et en ligne de Jean-Michel Fayard
+
+Bonjour,
+
+si vous êtes attéri-e sur cette page, c’est sans doute que vous cherchez à savoir qui je suis, d’où je viens, ce que je sais faire, ce que j’ai faire. Tout cela est bien normal et satisfaire votre curiosité est à portée de clic :
+
+ [http://goo.gl/xB5d1q](http://goo.gl/xB5d1q)
+
+Ah... mon petit doigt me dit que vous auriez peut-être préféré qu’il s’ouvre directement dans un [logiciel de traitement de texte célèbre sorti pour la première fois en 1983](http://fr.wikipedia.org/wiki/Microsoft_Word)
+
+J’avoue que je m’attendais à cette réaction, que je la comprends bien sûr, et que je vous dois donc une explication. 
+
+En bref, à chaque fois que j’essaye d’utiliser ledit logiciel, je m’arrage les cheveux.
+
+N’y voyez pas une attaque contre la société éditrice dudit logiciel, j’ai rencontré eu l’occasion de rencontrer deux de ses ingénieurs en entretien d’embauche, et ça a confirmé mon intuition qu’ils sont très bons, ce n’est pas là que se situe le problème.
+
+Le problème c’est que le monde dans lequel je baigne en 2013 a bien pu à voir avec le monde informatique de 1983 pendant lequel ce logiciel a été conçu initialement, et même avec celui de la fin des années 1990 pendant lequel il s’est imposé auprès du grand public. Depuis :
+
+- on écrit [proportionnellement moins souvent pour l’impression sur papier et davantage pour le Web](http://www.tedcurran.net/2012/10/why-write-for-paper-or-how-i-learned-to-stop-worrying-and-love-html/)
+- on n’utilise beaucoup plus qu’un seul ordinateur est on aimerait bien accéder à nos documents de partout
+- on collabore beaucoup plus souvent à plusieurs, même si on n’est pas dans le même endroit physique
+- on se préoccupe moins [d’avoir une liste de fonctionnalités gigantesque](http://www.amazon.com/Word-2013-Bible-Lisa-Bucki/dp/1118488121/ref=sr_1_3?ie=UTF8&qid=1376346262&sr=8-3&keywords=microsoft+word+bible) (oui, vous ne revez pas, un éditeur dont on n’a pas de raison de penser qu’il ne connait pas son métier a trouvé utile pour son business de sortir un livre de 1.7kg et 1056 pages pour expliquer comment on utilise vraiment bien Microsoft Word) (et ne parlons même pas de [tout Microsoft Office](http://www.amazon.com/Office-Library-Excel-Access-PowerPoint/dp/111852294X/ref=sr_1_2?s=books&ie=UTF8&qid=1376813303&sr=1-2&keywords=microsoft+office+bible))
+- par contre on attache beaucoup plus d’importance à ce que les fonctionnalités essentielles soient très conçues, rendant le logiciel pratique et agréable à utiliser pour les gens normaux. [C’est la méthode qu’a utilisé Google](http://paulbuchheit.blogspot.fr/2010/02/if-your-product-is-great-it-doesnt-need.html) avec un certain succès (D’ailleurs, **Google Docs** que j’utilise pour mon CV est bien entendu un produit Google).
+- on a compris que l’utilisateur qui cherchait à écrire devait se concentrer sur... l’écriture de ce qu’il a à dire justement, et *déléguer le soin de faire une mise en page cohérnete à des professionnels*. Donc fini d’appuyer sur les boutons *gras*, *souligné*, *italique* à longueur de journée, puis de copier-coller le tout n’importe comment. À la place on indique au logiciel, ceci est un titre, ceci un chapitre, un sous-chapitre, ... Oui c’est basique, Word le fait aussi. Le problème c’est que Word fait tout, par contre les utilisateurs de Word le font rarement eux.
+- Bonus : on a du coup une vraie table des matières qui est générée automatiquement
+- Comme on est sur le web, on peut mettre des URLs. Oui, voilà un concept utile qui n’existait pas tellement encore en 1983.
+- Le tout devenant beaucoup plus simple à modifier, on hésitera beaucoup moins à le mettre à jour autant de fois que nécessaire. 
+
+
+Pour la petite histoire, j’ai eu très longtemps en guise de CV un truc à peine modifié depuis l'époque où j'étais dans une SSII mainstream. 
+
+Ce truc avait ses mérites, notamment de ne pas surprendre les recruteurs
+Mais il était pénible à tenir à jour (car mal foutu tout simplement). 
+Et donc tout simplement il était rarement tenu à jour.
+
+En dernière instance, c'était un CV tel qu'il doit être selon les commerciaux de la SSII mainstream
+.... mais il ne me ressemblait pas du tout !
+
+
+Bon, c’est bien joli tout ça, mais vous vous avez absolument besoin d’une version PDF ou DOCX de mon CV ? Et bien fort heureusement, ce n’est pas très compliqué non plus.
+
+Une fois que vous avez cliqué là dessus :
+
+[http://goo.gl/xB5d1q](http://goo.gl/xB5d1q)
+
+Vous pouvez faire ceci
+
+![Obtenir une version Word ou PDF de mon CV]({{urls.media}}/cv-fayard-jeanmichel-au-format-word-svp.png)
+
+Cordialement,
+
+   Jean-Michel Fayard

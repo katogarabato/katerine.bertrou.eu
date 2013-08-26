@@ -1,15 +1,57 @@
 title : Bertrou.eu | Le site personnel de Jean-Michel Fayard
-tagline: Réconcilier l'informatique et le bon sens
-author :
+tagline: "Réconcilier l'informatique et le bon sens"
+
+'author' :
   name : Jean-Michel Fayard
   email : contact@bertrou.eu
   github : internaciulo
   twitter : nousername
+
   feedburner : feedname
 
-navigation :
+'twitter' : 
+    use : "theme"
+
+
+'navigation' :
   - archive
   - tags
   - categories
   - pages
-  - about
+  - licence
+
+'paginator' : 
+        enable: true   
+
+'bouquins' :
+    use : 'static'
+
+'design-et-feedback' :
+    use : 'static'
+
+'diversite-linguistique-et-esperantisme' :
+    use : 'static'
+
+'drafts' :
+    use : 'ignore'
+
+'ecosysteme-google' :
+    use : 'static'
+
+'mac' :
+    use : 'static'
+
+'merci' :
+    use : 'static'
+
+'permis-de-surfer' :
+    use : 'static'
+
+'posts' :
+    use : 'static'
+
+'pourquoi-ce-site' :
+    use : 'static'
+
+'traductions' :
+    use : 'static'
