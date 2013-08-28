@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ruhoh doctor - detect common mistakes
-categories: design feedback
+categories: design-feedback
 tags: ruhoh
 ---
 

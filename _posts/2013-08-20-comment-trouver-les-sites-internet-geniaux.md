@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Comment trouver les sites géniaux sur internet
-categories: permis-de-surfer
-tags: internet
+categories: internet
+tags: importance-elevee difficulte-faible
 ---
 
 # Comment trouver les sites géniaux sur internet

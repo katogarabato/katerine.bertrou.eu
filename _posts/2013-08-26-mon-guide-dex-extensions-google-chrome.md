@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mon guide des extensions Google Chrome
-categories: permis-de-surfer google
-tags: chrome  importance-haute difficulte-moyenne
+categories: google chrome 
+tags:  importance-elevee difficulte-moyenne
 ---
 
 # Mon guide des extensions Google Chrome

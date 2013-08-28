@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 13 mauvaises raisons pour ne pas supprimer son compte Facebook
-categories: permis-de-surfer
-tags: important difficulte-moyenne
+categories: internet 
+tags: importance-elevee difficulte-moyenne
 ---
 
 # 13 mauvaises raisons pour ne pas supprimer son compte Facebook

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mon guide des applications Android
-categories: permis-de-surfer google
-tags: tres-important difficulte-moyenne android
+categories:  google android
+tags: importance-elevee difficulte-moyenne android
 ---
 
 # Mon guide des applications Android 

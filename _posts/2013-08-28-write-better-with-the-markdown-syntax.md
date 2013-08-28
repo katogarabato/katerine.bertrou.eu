@@ -1,7 +1,7 @@
 ---
-title: Write Better With A Minimalist Distraction Free Full-screen Markdown Editor'
-tags: importance-haute difficulte-moyenne
-categories : permis-de-surfer ecrire
+title: Write Better With A Minimalist Distraction Free Full-screen Markdown Editor
+categories : internet
+tags: markdown importance-haute difficulte-moyenne
 ---
 
 
