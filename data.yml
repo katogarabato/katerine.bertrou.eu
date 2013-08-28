@@ -1,4 +1,4 @@
-title : Bertrou.eu | Le site personnel de Jean-Michel Fayard
+title : Bertrou.eu | Jean-Michel Fayard
 tagline: "Réconcilier l'informatique et le bon sens"
 
 'author' :
@@ -14,14 +14,16 @@ tagline: "Réconcilier l'informatique et le bon sens"
 
 
 'navigation' :
-  - archive
-  - tags
-  - categories
   - pages
   - licence
+  - merci/remerciements
+
 
 'paginator' : 
         enable: true   
+
+'tout' :
+    use : 'static'
 
 'bouquins' :
     use : 'static'

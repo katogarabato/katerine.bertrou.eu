@@ -1,0 +1,30 @@
+application: jean-michel-fayard
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: no
+
+handlers:
+# re-direct to index.html if no path is give
+- url: /
+  static_files: compiled/index.html
+  upload: compiled/index.html
+
+# access the static resources in the root director
+
+- url: /
+  upload: compiled/index.html
+  static_files: compiled/index.html
+
+- url: /(.*\.(gif|png|jpg|xml|pdf|css|js|json))
+  static_files: compiled/\1
+  upload: compiled/(.*\.(gif|png|jpg|xml|pdf|css|js|json))
+
+- url: /(.+)/
+  static_files: compiled/\1/index.html
+  upload: compiled/(.+)/index.html
+
+
+- url: /(.+)
+  static_files: compiled/\1/index.html
+  upload: compiled/([a-zA-Z-]+)/index.html

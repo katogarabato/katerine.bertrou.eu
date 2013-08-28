@@ -1,11 +1,8 @@
 ---
 title: 'Curiculum viatea en français et en ligne de Jean-Michel Fayard'
 date: '2013-08-26'
-description: "Curiculum viatea en français et en ligne de Jean-Michel Fayard"
 tags: [officiel]
 ---
-
-# Curiculum viatea en français et en ligne de Jean-Michel Fayard
 
 Bonjour,
 
