@@ -1,0 +1,4 @@
+name: jean-michel.bertrou.eu 
+markdown: redcarpet
+pygments: true
+permalink: /:categories/:title

@@ -1,9 +1,8 @@
 ---
+layout: post
 title: Comment trouver les sites géniaux sur internet
-date: '2013-08-26'
-description: 
-tags: ["general","très important", "facile"]
-categories : [ internet,informatique]
+categories: permis-de-surfer
+tags: internet
 ---
 
 # Comment trouver les sites géniaux sur internet

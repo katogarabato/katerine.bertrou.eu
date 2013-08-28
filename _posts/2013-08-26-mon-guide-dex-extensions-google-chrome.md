@@ -1,9 +1,8 @@
 ---
+layout: post
 title: Mon guide des extensions Google Chrome
-date: '2013-08-26'
-description: 
-tags: ["general","très important", "moyen"]
-categories : [ informatique]
+categories: permis-de-surfer google
+tags: chrome  importance-haute difficulte-moyenne
 ---
 
 # Mon guide des extensions Google Chrome

@@ -1,9 +1,8 @@
 ---
+layout: post
 title: Mon guide des applications Android
-date: '2013-08-26'
-description: 
-tags: ["très important", "moyen"]
-categories : [ informatique, android, google]
+categories: permis-de-surfer google
+tags: tres-important difficulte-moyenne android
 ---
 
 # Mon guide des applications Android 

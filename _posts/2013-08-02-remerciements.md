@@ -1,8 +1,8 @@
 ---
-title: 'remerciements'
-date: '2013-08-26'
-description: Hommage à tous ceux qui m’ont inspiré, personnes, compagnies, logiciels
-tags: [design,feedback]
+layout: post
+title: Remerciements
+categories: general
+tags: merci
 ---
 
 # Nani gigantum humeris insidentes (fr: Des nains sur des épaules de géants)

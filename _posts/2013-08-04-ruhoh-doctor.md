@@ -1,8 +1,8 @@
 ---
-title: 'ruhoh-doctor'
-date: '2013-08-27'
-description:
-tags: [feedback]
+layout: post
+title: ruhoh doctor - detect common mistakes
+categories: design feedback
+tags: ruhoh
 ---
 
 # This website was made with ruhoh

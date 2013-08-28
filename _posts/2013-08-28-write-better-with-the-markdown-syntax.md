@@ -1,9 +1,7 @@
 ---
 title: Write Better With A Minimalist Distraction Free Full-screen Markdown Editor'
-date: '2013-08-26'
-description:
-tags: [writing, javascript, "très important", "difficulté moyenne"]
-categories : [ "merci",  "permis-de-surfer" ]
+tags: importance-haute difficulte-moyenne
+categories : permis-de-surfer ecrire
 ---
 
 
