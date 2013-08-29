@@ -7,13 +7,13 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- ByWord rocks ! -->
-        <link rel="stylesheet" href="/css/byword.css">
+        <link rel="stylesheet" href="http://internaciulo.github.io/jean-michel.bertrou.eucss/byword.css">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="http://internaciulo.github.io/jean-michel.bertrou.eucss/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="http://internaciulo.github.io/jean-michel.bertrou.eucss/main.css">
 
     </head>
     <body>
@@ -21,8 +21,8 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">jean-michel.bertrou.eu</a></h1>
-              <a class="extra" href="/">home</a>
+                <h1 class="title"><a href="http://internaciulo.github.io/jean-michel.bertrou.eu">jean-michel.bertrou.eu</a></h1>
+              <a class="extra" href="http://internaciulo.github.io/jean-michel.bertrou.eu">home</a>
             </div>
 
                 <h2>ruhoh doctor - detect common mistakes</h2>
@@ -41,59 +41,64 @@
 
 <p>what I did</p>
 
-<p>368  cd Forge/github
-  372  mv bertrou.eu old_bertrou.eu
-  373  git clone git://github.com/ruhoh/blog.git bertrou.eu
-  374  cd bertrou.eu/
-  375  bundle -v                        # note here
-  376  gem install bundler      # doesn&#39;t work
-  468  which ruby
-  469  ruby --version               # ruby is outdated :(</p>
+<div class="highlight"><pre><code class="bash">  <span class="nb">cd </span>Forge/github  
+  mv bertrou.eu old_bertrou.eu  
+  git clone git://github.com/ruhoh/blog.git bertrou.eu  
+  <span class="nb">cd </span>bertrou.eu/  
+  bundle -v                         <span class="c"># note here  </span>
+  gem install bundler       <span class="c"># doesn&#39;t work  </span>
+  which ruby  
+  ruby --version                <span class="c"># ruby is outdated :(  </span>
+</code></pre></div>
 
 <p>what would have helped me</p>
 
-<p>$ bundle exec ruhoh doctor
-  # Checking if everything is installed
-  # :( your ruby version is outdated
-  # it seems that you are running MacOS 10.6
-  # we recommand you to install homebrew http://brew.sh
-  # then simply do 
-  brew doctor
-  brew install ruby</p>
+<div class="highlight"><pre><code class="bash">  <span class="nv">$ </span>bundle <span class="nb">exec </span>ruhoh doctor  
+  <span class="c"># Checking if everything is installed  </span>
+  <span class="c"># :( your ruby version is outdated  </span>
+  <span class="c"># it seems that you are running MacOS 10.6  </span>
+  <span class="c"># we recommand you to install homebrew http://brew.sh  </span>
+  <span class="c"># then simply do   </span>
+  brew doctor  
+  brew install ruby  
+</code></pre></div>
 
 <p>then if I do this and run it a second time</p>
 
-<p>$ bundle exec ruhoh doctor
-  # Checking if everything is installed
-  # :) ruby version is fine
-  # :( Bundle is not installed. You can do this
-  gem install bundler
-  # the gem is not in your current environnment
-  gem install ruhoh
-  # rackup is not running, do this in a separate shell
-  rackup -p 9292</p>
+<div class="highlight"><pre><code class="bash">  <span class="nv">$ </span>bundle <span class="nb">exec </span>ruhoh doctor  
+  <span class="c"># Checking if everything is installed  </span>
+  <span class="c"># :) ruby version is fine  </span>
+  <span class="c"># :( Bundle is not installed. You can do this  </span>
+  gem install bundler  
+  <span class="c"># the gem is not in your current environnment  </span>
+  gem install ruhoh  
+  <span class="c"># rackup is not running, do this in a separate shell  </span>
+  rackup -p 9292  
+</code></pre></div>
 
 <h2>making it your own</h2>
 
 <p>I did some mistakes here but it was mostly straigtghforward</p>
 
-<p>477  git remote rm origin
-   # create an empty repository on github
-  478  git remote add origin git@github.com:internaciulo/bertrou.eu.git
-  481  export EDITOR=vim
-  491  git pull origin master
-  492  ls
-  493  echo test &gt; README.md 
-  494  git add .
-  495  git commit -m &quot;Second version created with http://ruhoh.com/&quot;
-  496  git push origin </p>
+<div class="highlight"><pre><code class="bash">  git remote rm origin  
+  <span class="c"># create an empty repository on github  </span>
+  git remote add origin git@github.com:internaciulo/bertrou.eu.git  
+  <span class="nb">export </span><span class="nv">EDITOR</span><span class="o">=</span>vim  
+  git pull origin master  
+  ls  
+  <span class="nb">echo test</span> &gt; README.md   
+  git add .  
+  git commit -m <span class="s2">&quot;Second version created with http://ruhoh.com/&quot;</span>  
+  git push origin   
+</code></pre></div>
 
 <h2>using the command line</h2>
 
 <p>I did often this mistake :</p>
 
-<p>499  ruhoh compiled/
-  500  ruhoh compile</p>
+<div class="highlight"><pre><code class="bash">  ruhoh compiled/  
+  ruhoh compile  
+</code></pre></div>
 
 <p>Here we see the need for a <a href="http://bash-completion.alioth.debian.org">bash_completion thing</a> helper :-) </p>
 
@@ -101,32 +106,32 @@
 
 <p>I then had did a lot of trial and errors to try to compile my markdown files</p>
 
-<p>500  ruhoh compile
-  501  ruhoh compile
-  502  ruhoh compile
-  503  ruhoh compile
-  505  git commit -m &quot;ruhoh compile but does nothing&quot;</p>
+<div class="highlight"><pre><code class="bash">  ruhoh compile  
+  ruhoh compile  
+  ruhoh compile  
+  ruhoh compile  
+  git commit -m <span class="s2">&quot;ruhoh compile but does nothing&quot;</span>  
+</code></pre></div>
 
 <p>What would have helped me</p>
 
-<p>$ ruhoh doctor
-  # Checking repositories
-  # :( ruhoh does not know anything about the following repositories
-  # - bouquins
- # - design-et-feedback
- # - diversite-linguistique-et-esperantisme
- # - drafts
- # - mac
- # - merci
- # - partials
- # - permis-de-surfer
- # - pourquoi-ce-site
- # - stylesheets
- # - traduction
- # You probably forgot to update your config.yml file
- # See the documentation here http://ruhoh.com/docs/2/configuration/</p>
-
-<h2>media</h2>
+<div class="highlight"><pre><code class="bash">  <span class="nv">$ </span>ruhoh doctor  
+  <span class="c"># Checking repositories  </span>
+  <span class="c"># :( ruhoh does not know anything about the following repositories  </span>
+  <span class="c"># - bouquins  </span>
+  <span class="c"># - design-et-feedback  </span>
+  <span class="c"># - diversite-linguistique-et-esperantisme  </span>
+  <span class="c"># - drafts  </span>
+  <span class="c"># - mac  </span>
+  <span class="c"># - merci  </span>
+  <span class="c"># - partials  </span>
+  <span class="c"># - permis-de-surfer  </span>
+  <span class="c"># - pourquoi-ce-site  </span>
+  <span class="c"># - stylesheets  </span>
+  <span class="c"># - traduction  </span>
+  <span class="c"># You probably forgot to update your config.yml file  </span>
+  <span class="c"># See the documentation here http://ruhoh.com/docs/2/configuration/  </span>
+</code></pre></div>
 
 </div>
 
@@ -135,7 +140,7 @@
               <div class="contact">
                 <p>
                     Jean-Michel Fayard<br />
-                    <a href="mailto:jmfayard@gmail.com">jmfayard@gmail.com</a>
+                    <a href="mailto:jmfayard+site@gmail.com">jmfayard+site@gmail.com</a>
                 </p>
               </div>
               <div class="contact">
