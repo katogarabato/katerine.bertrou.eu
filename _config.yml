@@ -1,7 +1,7 @@
-name: jean-michel.bertrou.eu 
+name: Katerine Salazar Gonzalez
 markdown: redcarpet
 pygments: true
-permalink: /:title.html
-baseurl: http://internaciulo.github.io/jean-michel.bertrou.eu
+permalink: /:category/:title.html
+baseurl: http://internaciulo.github.io/katerine.bertrou.eu
 destination: ../_site
 
