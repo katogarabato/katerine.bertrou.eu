@@ -2,3 +2,5 @@ name: jean-michel.bertrou.eu
 markdown: redcarpet
 pygments: true
 permalink: /:title.html
+baseurl: http://internaciulo.github.io/jean-michel.bertrou.eu
+
