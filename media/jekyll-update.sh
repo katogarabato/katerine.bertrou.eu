@@ -1,5 +1,6 @@
 #!/bin/bash
-git commit -a -m "pushing new version at $(date)"
+git add --all
+git commit -a 
 git status
 jekyll build --destination ../_site
 git checkout gh-pages
