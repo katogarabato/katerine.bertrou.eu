@@ -5,7 +5,6 @@ categories: musique
 tags: colombie culture musique youtube
 ---
 
-# La musique colombienne ne se limite pas à Shakira
 
 ## [Richie Ray & Bobby Cruz - Sonido Bestial (HQ Audio)](http://youtu.be/dzLTFQE4vGE)
 

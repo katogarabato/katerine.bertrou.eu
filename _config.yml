@@ -1,7 +1,7 @@
 name: Katerine Salazar Gonzalez
 markdown: redcarpet
 pygments: true
-permalink: /:category/:title.html
+permalink: /:categories/:title.html
 baseurl: http://internaciulo.github.io/katerine.bertrou.eu
 destination: ../_site
 
