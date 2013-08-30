@@ -12,4 +12,6 @@ git commit -a -m "pushing new version at $(date)"
 # once it's done, go back to the master branch
 git checkout master
 # sync with GitHub.
-git push origin
+git push origin master
+git push origin gh-pages
+
