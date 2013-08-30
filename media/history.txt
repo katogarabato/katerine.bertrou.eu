@@ -1,0 +1,500 @@
+   96  ruhoh compile
+   97  find compiled -name "*html"
+   98  open compiled/index.html
+   99  ruhoh compile
+  100  ruhoh compile
+  101  find compiled -name "*html"
+  102  ruhoh design-et-feedback new "ruhoh-misc"
+  103  open design-et-feedback/ruhoh-misc.md 
+  104  cd ../static-appengine-hoster/
+  105  ls
+  106  cd application/
+  107  ls
+  108  find .
+  109  cd ..
+  110  vim hello.py
+  111  python hello.py 
+  112  open hello.py 
+  113  python hello.py 
+  114  cd /tmp
+  115  ls
+  116  pip install simplejson
+  117  pip install itsdangerous
+  118  cd
+  119  cd Forge/github/bertrou.eu/
+  120  ls
+  121  vim app.yml 
+  122  open app.yml 
+  123  find compiled 
+  124  find compiled -name "css"
+  125  find compiled -name "*css"
+  126  find compiled -name "*html"
+  127  ruhoh compile
+  128  ruhoh compile
+  129  ls
+  130  detox --help
+  131  detos -L
+  132  detox -L
+  133  detox —dry-run -s lower -r media merci mac permis-de-surfer traductions diversite-linguistique-et-esperantisme design-et-feedback bouquins pourquoi-ce-site drafts posts tout
+  134  detox —dry-run -s lower -r bouquins ecosysteme-google/ design-et-feedback/ diversite-linguistique-et-esperantisme ecosysteme-google/ mac/ media/ merci/ permis-de-surfer/ pourquoi-ce-site/ tout/ traductions/
+  135  detox —dry-run -s lower -r bouquins ecosysteme-google/ design-et-feedback/ diversite-linguistique-et-esperantisme ecosysteme-google/ mac/ media/ merci/ permis-de-surfer/ pourquoi-ce-site/ tout/ traductions/
+  136  detox —dry-run -s lower -r tout media
+  137  detox -—dry-run -s lower -r tout media
+  138  detox --dry-run -s lower -r tout media
+  139  detox --dry-run -s lower-only -r tout media
+  140  ls media
+  141  history 
+  142  detox —dry-run -s lower -r media merci mac permis-de-surfer traductions diversite-linguistique-et-esperantisme design-et-feedback bouquins pourquoi-ce-site drafts posts tout
+  143  detox --dry-run -s lower -r media merci mac permis-de-surfer traductions diversite-linguistique-et-esperantisme design-et-feedback bouquins pourquoi-ce-site drafts posts tout
+  144  detox --dry-run -s lower -r media merci mac permis-de-surfer traductions diversite-linguistique-et-esperantisme design-et-feedback bouquins pourquoi-ce-site  posts tout
+  145  detox --dry-run -s lower -r media merci mac permis-de-surfer traductions diversite-linguistique-et-esperantisme design-et-feedback bouquins pourquoi-ce-site  tout
+  146  ls -s detox --dry-run -s lower -r media merci mac permis-de-surfer traductions diversite-linguistique-et-esperantisme design-et-feedback bouquins pourquoi-ce-site  tout
+  147  touch -s detox --dry-run -s lower -r media merci mac permis-de-surfer traductions diversite-linguistique-et-esperantisme design-et-feedback bouquins pourquoi-ce-site  tout
+  148  touch -- -s detox --dry-run -s lower -r media merci mac permis-de-surfer traductions diversite-linguistique-et-esperantisme design-et-feedback bouquins pourquoi-ce-site  tout
+  149  ls
+  150  rm -rf compiled
+  151  find .
+  152  vim .gitignore 
+  153  vim .gitignore 
+  154  find . -name ".DS_Store"
+  155  find . -name ".DS_Store" | xargs git rm
+  156  find . -name ".DS_Store" | xargs ls
+  157  find . -name ".DS_Store" | xargs rm -rf
+  158  git add .
+  159  git commit -m "ruhoh c'est trop fort pour toi"
+  160  git push origin 
+  161  cd ../jean-michel.bertrou.eu
+  162  ls
+  163  history 
+  164  for i in _posts/* ; do "echo # $i" ; head -5 $i ; echo ; done
+  165  for i in _posts/* ; do echo "# $i" ; head -5 $i ; echo ; done 
+  166  jekyll serve
+  167  ls
+  168  rm -rf _site/
+  169  mkdir _site
+  170  jekyll serve
+  171  jekyll serve
+  172  cd ..
+  173  find test/
+  174  rmdir test
+  175  jekyll new test_jekyll
+  176  cd jean-michel.bertrou.eu/
+  177  jekyll serve
+  178  open _posts/2013-08-28-welcome-to-jekyll.markdown 
+  179  jekyll serve
+  180  rm -rf _posts/.ds_store 
+  181  jekyll serve
+  182  jekyll serve
+  183  cd ../test_jekyll/
+  184  jekyll serve
+  185  jekyll serve
+  186  jekyll serve
+  187  cd ../jean-michel.bertrou.eu/
+  188  jekyll serve
+  189  jekyll help
+  190  jekyll build
+  191  ls
+  192  cat .gitignore 
+  193  ls
+  194  find _site/
+  195  cd _site/
+  196  ls
+  197  cd ..
+  198  ls
+  199  git checkout gh-pages
+  200  ls
+  201  mv _site/* .
+  202  git co master
+  203  git checkout master
+  204  ls
+  205  jekyll build
+  206  rm -rf /tmp/_site && cp -r _site /tmp && git checkout gh-pages 
+  207  ls
+  208  rm -rf *
+  209  ls
+  210  ls -la
+  211  rm -rf .DS_Store 
+  212  cp -rf /tmp/_site/* .
+  213  git commit -a -m "pushing new version at $(date)"
+  214  find .
+  215  history 
+  216  git checkout master
+  217  ls
+  218  cd _posts/
+  219  ls
+  220  vim *md
+  221  cd ..
+  222  ls
+  223  ls ../test_jekyll/
+  224  cp -r ../test_jekyll/_layouts/ .
+  225  ls
+  226  ls
+  227  find .
+  228  cd ..
+  229  jekyll create test_jekyll
+  230  rm -rf test_jekyll/
+  231  jekyll create test_jekyll
+  232  jekyll new test_jekyll
+  233  cd jean-michel.bertrou.eu/
+  234  rm -rf /tmp/_site && cp -r _site /tmp
+  235  git checkout gh-pages
+  236  git commit -a -m "don't put yaml files... :( $(date) "
+  237  cd ..
+  238  vim update-site.sh
+  239  cd jean-michel.bertrou.eu/
+  240  cat ../update-site.sh 
+  241  git status
+  242  rm -rf /tmp/_site && cp -r _site /tmp
+  243  git checkout gh-pages
+  244  rm -rf * ..DS_Store
+  245  cp -rf /tmp/_site/* .
+  246  git commit -a -m "pushing new version at $(date)"
+  247  git push origin
+  248  git status
+  249  git add .
+  250  git commit -a -m "pushing new version at $(date)"
+  251  ls
+  252  git status
+  253  git add .
+  254  git status
+  255  rm -rf /tmp/_site && cp -r _site /tmp
+  256  git checkout gh-pages
+  257  rm -rf * ..DS_Store
+  258  cp -rf /tmp/_site/* .
+  259  git add .
+  260  git commit -a -m "pushing new version at $(date)"
+  261  ls
+  262  rm _config.yml 
+  263  git status
+  264  git checkout master
+  265  git commit -a -m "pushing new version at $(date)"
+  266  git status
+  267  jekyll build --destination ../_site
+  268  git checkout gh-pages
+  269  rm -rf *
+  270  cp -rf ../_site/* .
+  271  git add .
+  272  git commit -a -m "pushing new version at $(date)"
+  273  open -a GitHub
+  274  git checkout master
+  275  open -a GitHub
+  276  git commit -a -m "pushing new version at $(date)"
+  277  git status
+  278  jekyll build --destination ../_site
+  279  git checkout gh-pages
+  280  rm -rf *
+  281  cp -rf ../_site/* .
+  282  git add .
+  283  git commit -a -m "pushing new version at $(date)"
+  284  open -a GitHub
+  285  git checkout master
+  286  open ../_site/*readme*html
+  287  git add .
+  288  git status
+  289  cat media/jekyll-update.sh 
+  290  bash media/jekyll-update.sh 
+  291  ls media/
+  292  git status
+  293  ls
+  294  git push origin
+  295  ssh -T git@github.com
+  296  git push origin 
+  297  git add media/
+  298  status
+  299  git status
+  300  cd media/
+  301  ls
+  302  git add .
+  303  git status
+  304  cd ..
+  305  git ls
+  306  git log
+  307  cd media/
+  308  history | grep lower
+  309  detox -s uper .
+  310  detox -s lower .
+  311  ls
+  312  git status
+  313  cd ..
+  314  git status
+  315  detox  --dry-run media
+  316  man detox
+  317  ls
+  318  cd media/
+  319  ls
+  320  rm *
+  321  detox  --dry-run media
+  322  detox  --dry-run .
+  323  detox  --dry-run -r .
+  324  ls
+  325  cd ..
+  326  detox  --dry-run -r media
+  327  detox  -r media
+  328  ls
+  329  git status
+  330  git add media/
+  331  git add media
+  332  git add --all  media
+  333  detox -s lower -r media
+  334  git add --all  media
+  335  cd
+  336  vim .gitconfig 
+  337  vim .gitconfig 
+  338  cd -
+  339  git status
+  340  git add media
+  341  git status
+  342  ls media/de*
+  343  ls
+  344  cd media/
+  345  ls
+  346  cd ..
+  347  find .. -name "*esign*"
+  348  cp ../bertrou.eu/media/design_du_site_2013-08-18_14-00-11.png media/
+  349  git add media/
+  350  git commit
+  351  find .. -name "*logo*"
+  352  cp -f ../bertrou.eu/media/* .
+  353  ls
+  354  git status
+  355  git add .
+  356  git commit
+  357  ruhoh console
+  358  cd Forge/github/bertrou.eu/
+  359  ls
+  360  ruhoh help
+  361  ruhoh layouts new default
+  362  ruhoh compile
+  363  bundle exec rackup -p 9292
+  364  ruhoh help
+  365  ruhoh 
+  366  bundle exec rackup -p 9292
+  367  rackup -p 9292
+  368  history 
+  369  rackup -p 9292
+  370  rackup --help
+  371  man rackup
+  372  rackup -p 9292
+  373  cd ..
+  374  cd internaciulo.github.io/
+  375  cd ~/Forge/github/jean-michel.bertrou.eu
+  376  ls
+  377  jekyll serve
+  378  jekyll help
+  379  jekyll doctor
+  380  grep date _posts
+  381  grep date _posts/*
+  382  jekyll serve
+  383  egrep -r date _posts
+  384  cd _posts/
+  385  ls
+  386  cd ..
+  387  jekyll help doctor
+  388  jekyll doctor
+  389  jekyll build
+  390  ls
+  391  cd _layouts/
+  392  ls
+  393  vim post.html 
+  394  for i in _posts/* ; do echo "# $i" ; head -5 $i ; echo ; done
+  395  cd ..
+  396  jekyll serve
+  397  jekyll serve
+  398  jekyll serve
+  399  jekyll serve
+  400  ls
+  401  rm -rf _site/
+  402  jekyll build
+  403  find _site
+  404  open _config.yml 
+  405  jekyll build
+  406  cd ../test_jekyll/
+  407  jekyll build
+  408  cd ../jean-michel.bertrou.eu/
+  409  jekyll build
+  410  jekyll build
+  411  cd ../test_jekyll/
+  412  jekyll build
+  413  jekyll build
+  414  cd ../jean-michel.bertrou.eu/
+  415  jekyll build
+  416  cd brouillons/
+  417  ls
+  418  cat app.yml 
+  419  cd ..
+  420  jekyll build
+  421  cd brouillons/
+  422  ls
+  423  for i in * md ; do echo mv $i/^/2001-01-01-} ; done
+  424  for i in * md ; do echo mv ${i/^/2001-01-01-} ; done
+  425  for i in * md ; do echo mv ${i//2001-01-01-} ; done
+  426  cd ..
+  427  jekyll build
+  428  jekyll build
+  429  jekyll build
+  430  jekyll build
+  431  rm -rf _site
+  432  jekyll build
+  433  jekyll build
+  434  jekyll build
+  435  jekyll build
+  436  jekyll build
+  437  jekyll build
+  438  jekyll build
+  439  jekyll serve
+  440  jekyll serve
+  441  jekyll serve
+  442  jekyll serve
+  443  jekyll serve
+  444  jekyll serve
+  445  jekyll serve
+  446  jekyll help serve
+  447  jekyll serve --baseurl="" --watch
+  448  jekyll serve  --watch
+  449  jekyll build 
+  450  jekyll help build 
+  451  mv brouillons _drafts
+  452  jekyll build --destination ../_site
+  453  ls
+  454  git rm .DS_Store
+  455  vim .gitignore 
+  456  vim .gitignore 
+  457  git status
+  458  cat .gitignore 
+  459  vim .gitignore 
+  460  git add _drafts
+  461  cat .gitignore 
+  462  vim .gitignore 
+  463  ls
+  464  cat > .gitignore 
+  465  cat .gitignore 
+  466  git status
+  467  git commit -a -m "pushing new version at $(date)"
+  468  git status
+  469  jekyll build --destination ../_site
+  470  git checkout gh-pages
+  471  ls
+  472  cat .gitignore 
+  473  ls .*
+  474  vim .gitignore 
+  475  git rm .DS_Store
+  476  cp -rf ../_site/* .
+  477  ls
+  478  rm -rf *
+  479  cp -rf ../_site/* .
+  480  ls
+  481  git add .
+  482  git commit -a -m "pushing new version at $(date)"
+  483  open -a GitHub
+  484  git checkout master
+  485  open -a GitHub
+  486  jekyll serve  --watch
+  487  history | grep serve
+  488  jekyll serve --baseurl="" --watch
+  489  jekyll build --destination ../_site
+  490  open ../_site/index.html 
+  491  jekyll build
+  492  open ../_site/index.html 
+  493  ls
+  494  rm -rf _site/
+  495  jekyll build
+  496  ls
+  497  vim media/jekyll-update.sh
+  498  bash -x media/jekyll-update.sh 
+  499  ls
+  500  cd Forge/github/
+  501  ls
+  502  git clone jean-michel.bertrou.eu keterine.bertrou.eu
+  503  mv keterine.bertrou.eu katerine.bertrou.eu
+  504  cd katerine.bertrou.eu/
+  505  git checkout master
+  506  ls
+  507  cd ..
+  508  ls
+  509  rm -rf katerine.bertrou.eu
+  510  cd jean-michel.bertrou.eu/
+  511  ls
+  512  git checkout master
+  513  cd ..
+  514  git clone jean-michel.bertrou.eu katerine.bertrou.eu
+  515  cd katerine.bertrou.eu/
+  516  ls
+  517  find .
+  518  find ../jean-michel.bertrou.eu/
+  519  cd ..
+  520  ls
+  521  cd jean-michel.bertrou.eu/
+  522  ls
+  523  ls
+  524  find .
+  525  cd ..
+  526  ls
+  527  cd katerine.bertrou.eu
+  528  git pull origin 
+  529  ls
+  530  ls
+  531  git add .
+  532  git status
+  533  ls
+  534  git commit
+  535  git status
+  536  git add .
+  537  git add --all
+  538  git commit
+  539  ls
+  540  history 
+  541  history 
+  542  vim
+  543   ls ../*/media/jekyll-update.sh
+  544  find .. -name "jekyll*sh"
+  545  cd media/
+  546  wget https://raw.github.com/internaciulo/jean-michel.bertrou.eu/master/media/jekyll-update.sh
+  547  ls
+  548  cd ..
+  549  git add --all
+  550  git status
+  551  git commit
+  552  find *
+  553  ls
+  554  vim .gitignore 
+  555  vim media/jekyll-update.sh 
+  556  cat media/jekyll-update.sh 
+  557  git status
+  558  git add --all
+  559  git commit
+  560  git status
+  561  jekyll build
+  562  git checkout gh-pages
+  563  ls
+  564  rm -rf *
+  565  cp -rf ../_site/* .
+  566  ls
+  567  ls
+  568  rm -rf *
+  569  cvs checkout master
+  570  git checkout master
+  571  ls
+  572  rm -rf ../_site/
+  573  cat _config.yml 
+  574  jekyll biuld
+  575  jekyll serve
+  576  jekyll biuld
+  577  jekyll build
+  578  git checkout gh-pages 
+  579  find *
+  580  ls
+  581  rm -rf *
+  582  cp -rf ../_site/* .
+  583  ls
+  584  git add --all .
+  585  git commit -a -m "pushing new version at $(date)"
+  586  git checkout master
+  587  ls
+  588  ls
+  589  git remote rm origin 
+  590  git remote add origin https://github.com/internaciulo/katerine.bertrou.eu.git
+  591  git push origin 
+  592  git push origin 
+  593  git push origin master 
+  594  history 
+  595  history > media/history.txt
