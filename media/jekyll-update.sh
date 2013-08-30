@@ -1,4 +1,5 @@
 #!/bin/bash
+export EDITOR=vim
 git add --all
 git commit -a 
 git status
